@@ -1,0 +1,32 @@
+body {
+    background-color: #808080;
+}
+
+h1 {
+	color: white;
+}
+
+.midDiv {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: white;
+	border:1px;
+	border-top: 2px black;
+	border-bottom: 2px black;
+	padding: 50px;
+}
+
+.botDiv {
+  position: fixed;
+  bottom: 0;
+  left: 10;
+  width: 300px;
+  height: 100px
+}
+
+.textEdited {
+    color: white;
+}
